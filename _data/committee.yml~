@@ -1,0 +1,15 @@
+- name: Elizabeth Baggaley
+  position: Chair
+  image: committee_liz_thumbnail.png
+
+- name: David Finger
+  position: Treasurer
+
+- name: Ashley Wragg
+  position: Secretary
+
+- name: Mark J Thompson
+  position: Communications
+
+- name: Jonathan Bramble
+  position: WebMaster

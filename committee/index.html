@@ -1,0 +1,29 @@
+---
+layout: default
+title: Committee
+---
+<div class="row">
+ <div class="large-12 small-12 columns">
+  <h3>CRS Committee Members</h3>
+ </div>
+</div>
+
+{% for member in site.data.committee %}
+<div class="row">
+ <div class="large-6 columns">
+
+   <div class="panel">
+     <div class="row">
+       <div class="large-4 small-6 columns">
+          <img src="../img/{{member.image}}"/> 
+        </div>
+        <div class="large-8 small-6 columns">
+          <h4>{{member.name}}</h4>
+          <h4>{{member.position}}</h4>
+         </div>
+     </div>
+   </div> 
+
+  </div>
+ </div>
+{% endfor %}
