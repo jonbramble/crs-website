@@ -13,7 +13,24 @@ categories: events seminar
 {{ link_name | bitly}}
 </div>
 
-Please join us for our next lunchtime seminar.
-It will take place on the 26th June in D17h at 11:30 - 14:00. 
+## Ever wondered what research goes on in other labs?
 
-Speakers and titles to follow. 
+Then come along to the latest in our series of lunchtime seminars featuring short talks from your fellow researchers from around the Department, and find out more ...
+
+#### Free lunch will be provided
+
+It will take place on the 26th June in D17h at 12:00 - 14:00. 
+
+Talks 12:15 - 13:15, followed by buffet lunch
+
+#### With talks from:
+
+Richard Beniston (Biological Mass Spectrometry Facility)
+
+Kate Kirkham (Armes group)
+
+Matt Sellwood (Chem group/SITraN)
+
+
+Our event poster can be download from [here]({{site.url}}/files/seminar_26_06_14.pdf).
+
