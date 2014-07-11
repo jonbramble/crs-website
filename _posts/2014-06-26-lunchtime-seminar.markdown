@@ -2,7 +2,7 @@
 layout: post
 title:  "Lunchtime Seminar"
 date:   2014-06-26 11:30:00
-categories: events seminar
+categories: pastevents seminar
 ---
 
 {% capture link_name %}

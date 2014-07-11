@@ -7,7 +7,7 @@
 //
 
 // This is the default html and body font-size for the base rem value.
-// $rem-base: 16px;
+$rem-base: 16px;
 
 // Allows the use of rem-calc() or lower-bound() in your settings
 @import "foundation/functions";
@@ -42,7 +42,7 @@
 
 // We use these to control various global styles
 $body-bg: #111;
-// $body-font-color: #222;
+$body-font-color: #666;
 // $body-font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 // $body-font-weight: $font-weight-normal;
 // $body-font-style: normal;
@@ -1182,8 +1182,8 @@ $topbar-bg-color: #AA3939;
 // $topbar-bg: $topbar-bg-color;
 
 // Height and margin
-$topbar-height: 110px;
-// $topbar-margin-bottom: 20px;
+$topbar-height: 85px;
+// $topbar-margin-bottom: 30px;
 
 // Controlling the styles for the title in the top bar
 // $topbar-title-weight: $font-weight-normal;
