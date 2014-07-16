@@ -1,0 +1,38 @@
+---
+layout: default
+title: Researchers Directory
+---
+
+<div class="row">
+ <div class="large-12 columns">
+  <h3> Researchers Directory </h3>
+ </div>
+</div>
+
+{% for cluster in site.data.directory %}
+    <div class="row">
+     <div class="large-8 columns end">
+      <div class="panel">
+       <div class="row">
+        <div class="large-4 large-push-8 columns">
+         <img src="../img/{{cluster.img}}"/> 
+        </div>
+        <div class="large-8 large-pull-4 columns">
+         <h3>{{ cluster.name }}</h3>
+         {% for group in cluster.group %}
+         <div class="row">
+          <div class="large-12 columns">
+           <h5>Group: {{ group.leader }}</h5>
+          	{% for member in group.members %}
+           	 <p>{{ member.name }} {{ member.position }}</p>
+          	{% endfor %}
+          	</div>
+          	</div>
+          {% endfor %} 
+           </div> 
+
+          </div>
+      </div>
+     </div>
+    </div>
+{% endfor %}
