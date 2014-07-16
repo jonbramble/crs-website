@@ -1,6 +1,11 @@
 @import "settings";
 //@import "foundation";
 
+img.logo {
+	height: 85px;
+	padding: 5px 25px 5px 25px;
+}
+
 .row.soc_event {
 	margin-bottom: 10px;
 }
@@ -8,7 +13,7 @@
 #page-content {
 	padding-top: 55px;
 	padding-bottom: 55px;
-	min-height: 350px;
+	min-height: 550px;
 	background-color: #fff;
 	//background: url("/img/word-1.png") no-repeat center center fixed;
 	//background-size: cover;

@@ -1,0 +1,456 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"cu",
+				"currency"
+			],
+			[
+				"in",
+				"in_progress"
+			],
+			[
+				"doc",
+				"documents_count"
+			],
+			[
+				"ne",
+				"new_word_price"
+			],
+			[
+				"rep",
+				"repetitions"
+			],
+			[
+				"new",
+				"new_rate"
+			],
+			[
+				"total",
+				"total_cost"
+			],
+			[
+				"currency",
+				"currency_as_string"
+			],
+			[
+				"be",
+				"be_valid"
+			],
+			[
+				"shoudl",
+				"should_receive"
+			],
+			[
+				"compl",
+				"completed_date"
+			],
+			[
+				"updat",
+				"update_column"
+			],
+			[
+				"docu",
+				"document_count"
+			],
+			[
+				"left",
+				"padding-left"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"bottom",
+				"margin-bottom"
+			],
+			[
+				"Web",
+				"web-translations"
+			],
+			[
+				"accou",
+				"account_number"
+			],
+			[
+				"invoic",
+				"invoice_project"
+			],
+			[
+				"invoice",
+				"invoice_project"
+			],
+			[
+				"invoi",
+				"invoice_project"
+			],
+			[
+				"project",
+				"project_total_cost_row"
+			],
+			[
+				"ta",
+				"table_array"
+			],
+			[
+				"pro",
+				"project_total_cost_row"
+			],
+			[
+				"table",
+				"table_array"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "Gemfile",
+			"settings":
+			{
+				"buffer_size": 101,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"Snippet: ",
+				"Snippet: def self .. end"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Remove Package"
+			],
+			[
+				"packag",
+				"Package Control: Remove Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 530.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())",
+			"sublime.packages_path()"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/jon/Programming/Ruby/rails/pigeonhole/spec/models/invoice_project_spec.rb",
+		"/home/jon/Programming/Ruby/rails/pigeonhole/spec/controllers/clients_controller_spec.rb",
+		"/home/jon/Programming/Ruby/rails/pigeonhole/spec/factories/invoice_projects.rb",
+		"/home/jon/Programming/Ruby/rails/pigeonhole/spec/spec_helper.rb",
+		"/home/jon/Programming/jekyll/crs/_posts/2014-07-24-how-to-prepare-and-perform-in-a-lectureship-interview.markdown",
+		"/home/jon/Programming/jekyll/crs/_posts/2013-07-17-launch-event.markdown",
+		"/home/jon/Programming/Ruby/rails/pigeonhole/spec/factories/invoices.rb",
+		"/home/jon/Programming/Ruby/rails/pigeonhole/app/helpers/documents_helper.rb",
+		"/home/jon/Programming/Ruby/rails/pigeonhole/db/schema.rb",
+		"/home/jon/Programming/Ruby/rails/pigeonhole/app/controllers/documents_controller.rb",
+		"/home/jon/Programming/Ruby/rails/pigeonhole/spec/support/controller_macros.rb",
+		"/home/jon/Programming/Ruby/rails/pigeonhole/app/views/documents/_form.html.haml",
+		"/home/jon/Programming/Ruby/rails/pigeonhole/spec/factories/documents.rb",
+		"/home/jon/Programming/Ruby/rails/pigeonhole/app/controllers/invoice_projects_controller.rb",
+		"/home/jon/Programming/Ruby/rails/pigeonhole/spec/factories/projects.rb",
+		"/home/jon/Programming/Ruby/rails/pigeonhole/spec/models/project_spec.rb",
+		"/home/jon/Programming/Ruby/rails/pigeonhole/spec/models/document_spec.rb",
+		"/home/jon/Programming/Ruby/rails/pigeonhole/spec/models/invoice_spec.rb",
+		"/home/jon/Programming/Ruby/rails/pigeonhole/spec/models/contact_spec.rb",
+		"/home/jon/Programming/Ruby/rails/pigeonhole/spec/models/client_spec.rb",
+		"/home/jon/Programming/Ruby/rails/pigeonhole/app/models/document.rb",
+		"/home/jon/Programming/Ruby/rails/pigeonhole/db/migrate/20140711094210_monetize_document.rb",
+		"/home/jon/Programming/Ruby/rails/pigeonhole/app/models/project.rb",
+		"/home/jon/Programming/Ruby/rails/pigeonhole/db/seeds.rb",
+		"/home/jon/Programming/Ruby/rails/pigeonhole/config/initializers/money.rb",
+		"/home/jon/Programming/Ruby/rails/pigeonhole/app/views/projects/show.html.haml",
+		"/home/jon/Programming/Ruby/rails/pigeonhole/app/views/documents/show.html.haml",
+		"/home/jon/Programming/Ruby/rails/pigeonhole/app/views/projects/_form.html.haml",
+		"/home/jon/Programming/Ruby/rails/pigeonhole/db/migrate/20140710165022_add_currency_to_invoices.rb",
+		"/home/jon/Programming/Ruby/rails/pigeonhole/db/migrate/20140710154224_add_currency_to_projects.rb",
+		"/home/jon/Programming/Ruby/rails/pigeonhole/app/controllers/projects_controller.rb",
+		"/home/jon/Programming/Ruby/rails/pigeonhole/Gemfile",
+		"/home/jon/Programming/Ruby/rails/pigeonhole/app/forms/invoice_form_pdf.rb",
+		"/home/jon/Programming/Ruby/rails/pigeonhole/db/migrate/20140710092508_add_currency_to_documents.rb",
+		"/home/jon/Programming/Ruby/rails/pigeonhole/config/application.rb",
+		"/home/jon/Programming/Ruby/rails/pigeonhole/spec/models/user_spec.rb",
+		"/home/jon/Programming/Ruby/rails/pigeonhole/db/migrate/20140709140533_add_index_to_projects.rb",
+		"/home/jon/Programming/Ruby/rails/pigeonhole/app/views/documents/_table.html.haml",
+		"/home/jon/Programming/Ruby/rails/pigeonhole/app/views/invoices/_itemised_table.html.haml",
+		"/home/jon/Programming/Ruby/rails/pigeonhole/app/views/projects/_table.html.haml",
+		"/home/jon/Programming/Ruby/rails/pigeonhole/app/assets/stylesheets/foundation_and_overrides.scss",
+		"/home/jon/Programming/Ruby/rails/pigeonhole/app/assets/stylesheets/application.css",
+		"/home/jon/Programming/Ruby/rails/pigeonhole/app/views/contacts/_table.html.haml",
+		"/home/jon/Programming/Ruby/rails/pigeonhole/app/views/home/_created_documents.haml",
+		"/home/jon/Programming/Ruby/rails/pigeonhole/app/views/home/_in_progress_documents.haml",
+		"/home/jon/Programming/Ruby/rails/pigeonhole/app/views/home/index.html.haml",
+		"/home/jon/Programming/Ruby/rails/pigeonhole/app/views/clients/_table.html.haml",
+		"/home/jon/Programming/Ruby/rails/pigeonhole/app/helpers/application_helper.rb",
+		"/home/jon/Programming/Ruby/rails/pigeonhole/app/views/invoices/show.html.haml",
+		"/home/jon/Programming/Ruby/rails/pigeonhole/config/routes.rb",
+		"/home/jon/Programming/Ruby/rails/pigeonhole/app/views/invoices/_table.html.haml",
+		"/home/jon/Programming/Ruby/rails/pigeonhole/app/assets/stylesheets/tables/table.css.scss",
+		"/home/jon/Programming/Ruby/rails/pigeonhole/app/views/shared/_table_footer.html.haml",
+		"/home/jon/Programming/Ruby/rails/pigeonhole/app/views/invoice_projects/create.js.erb",
+		"/home/jon/Programming/Ruby/rails/pigeonhole/app/views/invoice_projects/_project.html.haml",
+		"/home/jon/Programming/Ruby/rails/pigeonhole/app/views/invoice_projects/documents.html.haml",
+		"/home/jon/Programming/Ruby/rails/pigeonhole/app/views/invoice_projects/_available_documents.html.haml",
+		"/home/jon/Programming/Ruby/rails/pigeonhole/app/views/invoice_projects/_added_documents.html.haml",
+		"/home/jon/Programming/Ruby/rails/pigeonhole/app/views/invoice_projects/index.html.haml",
+		"/home/jon/Programming/Ruby/rails/pigeonhole/app/assets/javascripts/home.js.coffee",
+		"/home/jon/Programming/Ruby/rails/pigeonhole/app/controllers/home_controller.rb",
+		"/home/jon/Programming/Ruby/rails/pigeonhole/app/views/invoice_projects/_form.html.haml",
+		"/home/jon/Programming/Ruby/rails/pigeonhole/app/views/layouts/invoice_projects.haml",
+		"/home/jon/Programming/Ruby/rails/pigeonhole/app/views/invoice_projects/destroy.js.erb",
+		"/home/jon/Programming/Ruby/rails/pigeonhole/config/locales/en.yml",
+		"/home/jon/Programming/Ruby/rails/pigeonhole/app/views/invoice_projects/saved",
+		"/home/jon/Programming/Ruby/rails/pigeonhole/app/views/invoices/edit.html.haml",
+		"/home/jon/Programming/Ruby/rails/pigeonhole/app/views/invoices/configure.html.haml",
+		"/home/jon/Programming/Ruby/rails/pigeonhole/app/views/invoices/_form.html.haml",
+		"/home/jon/Programming/Ruby/rails/pigeonhole/app/views/invoices/index.html.haml",
+		"/home/jon/Programming/Ruby/rails/pigeonhole/app/views/invoices/new.html.haml",
+		"/home/jon/Programming/Ruby/rails/pigeonhole/app/views/shared/_side_bar.html.haml",
+		"/home/jon/Programming/Ruby/rails/pigeonhole/app/views/documents/index.html.haml",
+		"/home/jon/Programming/Ruby/rails/pigeonhole/app/views/documents/edit.html.haml",
+		"/home/jon/Programming/Ruby/rails/pigeonhole/app/views/documents/new.html.haml",
+		"/home/jon/Programming/Ruby/rails/pigeonhole/app/views/documents/_line_element.html.haml",
+		"/home/jon/Programming/Ruby/rails/pigeonhole/app/views/projects/show.json.jbuilder",
+		"/home/jon/Programming/Ruby/rails/pigeonhole/app/views/projects/new.html.haml",
+		"/home/jon/Programming/Ruby/rails/pigeonhole/app/views/projects/index.json.jbuilder",
+		"/home/jon/Programming/Ruby/rails/pigeonhole/app/views/projects/index.html.haml",
+		"/home/jon/Programming/Ruby/rails/pigeonhole/app/views/projects/edit.html.haml",
+		"/home/jon/Programming/Ruby/rails/pigeonhole/app/views/contacts/edit.html.haml",
+		"/home/jon/Programming/Ruby/rails/pigeonhole/app/views/contacts/_form.html.haml",
+		"/home/jon/Programming/Ruby/rails/pigeonhole/app/views/contacts/index.html.haml",
+		"/home/jon/Programming/Ruby/rails/pigeonhole/app/views/contacts/index.js.erb",
+		"/home/jon/Programming/Ruby/rails/pigeonhole/app/views/contacts/new.html.haml",
+		"/home/jon/Programming/Ruby/rails/pigeonhole/app/views/contacts/show.html.haml",
+		"/home/jon/Programming/Ruby/rails/pigeonhole/app/views/clients/_form.html.haml",
+		"/home/jon/Programming/Ruby/rails/pigeonhole/app/views/clients/show.html.haml",
+		"/home/jon/Programming/Ruby/rails/pigeonhole/app/views/clients/new.html.haml",
+		"/home/jon/Programming/Ruby/rails/pigeonhole/app/views/clients/index.js.erb",
+		"/home/jon/Programming/Ruby/rails/pigeonhole/app/views/clients/index.html.haml",
+		"/home/jon/Programming/Ruby/rails/pigeonhole/app/views/clients/edit.html.haml",
+		"/home/jon/pigeonhole.dump",
+		"/home/jon/Programming/Ruby/rails/inventory/config/application.yml",
+		"/home/jon/Programming/Ruby/rails/pigeonhole/config/application.yml",
+		"/home/jon/Programming/Ruby/rails/pigeonhole/app/views/layouts/home.haml",
+		"/home/jon/Programming/Ruby/rails/pigeonhole/app/assets/javascripts/application.js",
+		"/home/jon/Programming/Ruby/rails/pigeonhole/vendor/assets/javascripts/Chart.js",
+		"/home/jon/Programming/Ruby/rails/pigeonhole/app/views/layouts/devise.html.haml",
+		"/home/jon/Programming/Ruby/rails/pigeonhole/app/views/layouts/application.html.haml",
+		"/home/jon/Programming/Ruby/rails/pigeonhole/app/assets/stylesheets/application.css.scss",
+		"/home/jon/Programming/Ruby/rails/pigeonhole/app/views/layouts/application.html.erb",
+		"/home/jon/Programming/Ruby/rails/pigeonhole/config/environments/production.rb",
+		"/home/jon/Programming/Ruby/rails/pigeonhole/app/assets/stylesheets/foundation_and_overrides.scss.bck",
+		"/home/jon/Programming/Ruby/rails/pigeonhole/app/models/user.rb",
+		"/home/jon/Programming/Ruby/rails/pigeonhole/app/views/devise/sessions/new.html.haml",
+		"/home/jon/Programming/Ruby/rails/pigeonhole/app/views/shared/_login_nav.html.haml",
+		"/home/jon/.local/share/applications/omegaT.desktop",
+		"/home/jon/Programming/Ruby/rails/pigeonhole/app/views/devise/sessions/new.html.erb",
+		"/home/jon/Programming/Ruby/rails/pigeonhole/app/controllers/invoices_controller.rb",
+		"/home/jon/Programming/Ruby/rails/pigeonhole/app/models/invoice.rb",
+		"/home/jon/Programming/Ruby/rails/pigeonhole/app/models/invoice_project.rb",
+		"/home/jon/Programming/Ruby/rails/pigeonhole/app/controllers/application_controller.rb",
+		"/home/jon/Programming/Ruby/rails/pigeonhole/db/projects.yml",
+		"/home/jon/Programming/Ruby/rails/pigeonhole/db/clients.yml",
+		"/home/jon/Programming/Ruby/rails/pigeonhole/db/migrate/20130928153154_create_users.rb",
+		"/home/jon/Programming/Ruby/rails/pigeonhole/db/users.yml",
+		"/home/jon/Programming/Ruby/rails/pigeonhole/config/environments/development.rb"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"FactoryGirl.",
+			"FactoryGirl",
+			"FactoryGirl.",
+			"5,",
+			"&pound;",
+			"4",
+			"my_address",
+			"h5",
+			"h4",
+			"h5",
+			"h4",
+			"divider"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "Gemfile",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 101,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "crs.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 280.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

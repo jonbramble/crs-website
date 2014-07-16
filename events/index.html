@@ -12,7 +12,25 @@ title: Events
     <div class="row">
 	<div class = "large-6 columns">
   	   <div class= "panel">
-	     <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+	     <span class="post-date">{{ post.date | date: "%b %-d, %Y - %H:%M" }}</span>
+             <a class ="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+ 	   </div>
+	</div>
+    </div>
+{% endfor %}
+
+
+<div class="row">
+ <div class="large-12 columns">
+<h3> Other Events </h3>
+ </div>
+ </div>
+
+{% for post in site.categories.otherevents %}
+    <div class="row">
+	<div class = "large-6 columns">
+  	   <div class= "panel">
+	     <span class="post-date">{{ post.date | date: "%b %-d, %Y - %H:%M" }}</span>
              <a class ="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
  	   </div>
 	</div>
