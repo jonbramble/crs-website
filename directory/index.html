@@ -23,9 +23,37 @@ title: Researchers Directory
          <div class="row">
           <div class="large-12 columns">
            <h5>Group: {{ group.leader }}</h5>
+            <ul class="directory-items">
           	{% for member in group.members %}
-           	 <p>{{ member.name }} {{ member.position }}</p>
+
+			<li><a href="#" data-reveal-id="{{member.id}}">{{ member.name }}</a></li>
+
+           	 <div id="{{member.id}}" class="reveal-modal" data-reveal>	
+  				<div class="row">
+  				<div class="large-2 columns">
+  				 	<img src="../img/directory/{{member.id}}.png">
+  				 </div>
+  				 <div class="large-4 columns">
+  				 	<h3>{{ member.name }}</h3>
+  					<p class="lead">{{member.position}}</p>
+  				 </div>
+  			
+  				   <div class="large-6 columns">
+  				    <ul class="directory-items">
+  				     <li>Email: {{member.email}}</li>
+  					 <li>Research Keywords: {{member.keywords}}</li>
+  				     <li>Office: {{member.office}}</li>
+  				     <li>Tel: {{member.phone}}</li>    
+  				    <p></p>
+  				   </div>
+
+  				</div>
+ 	 			<a class="close-reveal-modal">&#215;</a>
+			 </div>
+
+
           	{% endfor %}
+          	</ul>
           	</div>
           	</div>
           {% endfor %} 
@@ -36,3 +64,26 @@ title: Researchers Directory
      </div>
     </div>
 {% endfor %}
+
+<div class="row">
+ <div class="large-12 columns">
+  <p>If you are a CRS member and want to be included, click <a href="#" data-reveal-id="add-me">here</a> for more information </p>
+ </div>
+</div>
+
+ <div id="add-me" class="reveal-modal" data-reveal>	
+  <p> Please email j.bramble@sheffield.ac.uk with the following information: </p>
+   <ul class="directory-items">
+    <li>Your Name</li>
+    <li>Group leader name</li>
+    <li>Status eg Post-Doc</li>
+    <li>Research Keywords</li>
+    <li>Office Name *</li>
+    <li>Phone *</li>
+    <li>Website or link to research gate *</li>
+    <li>Image of your face, please crop and resize to 100x100px in png format *</li>
+    <li>Biographical Statement *</li>
+    <li>*Optional</li>
+   </ul>
+  <a class="close-reveal-modal">&#215;</a>
+ </div>

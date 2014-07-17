@@ -1,38 +1,44 @@
+# Indentation of this file is critical!  
   - 
     name: Chemical Biology
     img: dna.jpg
     group:
      - 
-       leader: Sarah Staniland
+       leader: Dr. Sarah Staniland
        members:
         - 
           name: Andrea Rawlings
+          id: arawlings
+          bio: 
           position: Post-Doc
           keywords: Proteins
           email: a.rawlings@sheffield.ac.uk
-          office: E70
-          lab: E74
+          office: E74
+          lab: E70
           phone: x29364
           website: 
         - 
           name: Jonathan Bramble
+          id: jbramble
+          bio: 
           position: Post-Doc
-          keywords: Nanoparticles
-          email: a.rawlings@sheffield.ac.uk
-          office: E70
-          lab: E74
+          keywords: Nanoparticles, Microscopy
+          email: j.bramble@sheffield.ac.uk
+          office: E74
+          lab: E70
           phone: x29364
           website: 
 
      - 
-       leader: Jane Gradsby
+       leader: Prof. Jane Gradsby
        members:
         - 
           name: David Finger
+          id: dfinger
           position: Post-Doc
           keywords: Proteins
           email: d.l.finger@sheffield.ac.uk
-          office: E70
+          office: E74
           lab: E72
           phone: x29364
           website: 
@@ -48,6 +54,11 @@
     group:
 
   - 
-    name: Synthetic Chemistry
+    name: Organic Synthetic Chemistry
+    img: synthesis.jpg
+    group: 
+
+  - 
+    name: Inorganic Synthetic Chemistry
     img: synthesis.jpg
     group: 
