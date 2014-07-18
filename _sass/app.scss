@@ -1,6 +1,17 @@
 @import "settings";
 //@import "foundation";
 
+@charset "UTF-8";
+
+@import 
+  "foundation/components/grid",
+  "foundation/components/panels",
+  "foundation/components/top-bar",
+  "foundation/components/inline-lists",
+  "foundation/components/type",
+  "foundation/components/visibility",
+  "foundation/components/reveal";
+
 img.logo {
 	height: 85px;
 	padding: 5px 25px 5px 25px;
@@ -21,10 +32,22 @@ img.logo {
 	.link {
 		display: none;
 	}
+
+	.page-title h3 {
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
 }
 
 ul.directory-items {
 	list-style: none;
+}
+
+@media #{$small-only} { 
+ .directory-list {
+ 	padding-top: 15px;
+}
+
 }
 
 
@@ -55,16 +78,7 @@ footer {
 	}
 }
 
-@charset "UTF-8";
 
-@import 
-  "foundation/components/grid",
-  "foundation/components/panels",
-  "foundation/components/top-bar",
-  "foundation/components/inline-lists",
-  "foundation/components/type",
-  "foundation/components/visibility",
-  "foundation/components/reveal";
 
 
 // Or selectively include components

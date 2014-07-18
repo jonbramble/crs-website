@@ -112,42 +112,18 @@
 	"buffers":
 	[
 		{
-			"file": "events/index.html",
-			"settings":
-			{
-				"buffer_size": 936,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "_data/directory.yml",
-			"settings":
-			{
-				"buffer_size": 1120,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "_data/committee.yml",
-			"settings":
-			{
-				"buffer_size": 464,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "directory/index.html",
 			"settings":
 			{
-				"buffer_size": 938,
+				"buffer_size": 2630,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "committee/index.html",
+			"file": "_sass/app.scss",
 			"settings":
 			{
-				"buffer_size": 582,
+				"buffer_size": 2539,
 				"line_ending": "Unix"
 			}
 		}
@@ -209,6 +185,12 @@
 	},
 	"file_history":
 	[
+		"/home/jon/Documents/Latex/Magnetite-MacroFluidic/main.tex",
+		"/home/jon/Programming/jekyll/crs/_sass/app.scss",
+		"/home/jon/Programming/jekyll/crs/directory/index.html",
+		"/home/jon/Programming/jekyll/crs/events/index.html",
+		"/home/jon/Programming/jekyll/crs/_data/directory.yml",
+		"/home/jon/Programming/jekyll/crs/committee/index.html",
 		"/home/jon/Programming/jekyll/crs/Gemfile",
 		"/home/jon/Programming/jekyll/crs/new_post_docs/index.html",
 		"/home/jon/Programming/Ruby/rails/pigeonhole/spec/models/invoice_project_spec.rb",
@@ -383,19 +365,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "events/index.html",
+					"file": "directory/index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 936,
+						"buffer_size": 2630,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								38,
-								38
+								85,
+								85
 							]
 						],
 						"settings":
@@ -413,118 +395,31 @@
 				},
 				{
 					"buffer": 1,
-					"file": "_data/directory.yml",
+					"file": "_sass/app.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1120,
+						"buffer_size": 2539,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								517,
-								517
+								703,
+								703
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/YAML/YAML.tmLanguage"
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.x": -0.0,
+						"translation.y": 462.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "_data/committee.yml",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 464,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/YAML/YAML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "directory/index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 938,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								828,
-								828
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 98.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "committee/index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 582,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								340,
-								340
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 153.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
 					"type": "text"
 				}
 			]
@@ -602,7 +497,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 280.0,
+	"side_bar_width": 151.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
