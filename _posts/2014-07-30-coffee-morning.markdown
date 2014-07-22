@@ -13,3 +13,5 @@ categories: events coffeemorning
 </div>
 
 Our next CRS coffee morning will be held in the Chemistry Tea Room (G12) at 10:30am
+
+The poster for this event can be downloaded [here]({{site.url}}/files/CRS_poster_coffee_30072014.pdf)

@@ -112,18 +112,10 @@
 	"buffers":
 	[
 		{
-			"file": "directory/index.html",
+			"file": "/data/phyjpb/Data/NMR/RAW/mms6_pep_ac_140414/3002/pdata/1/1r",
 			"settings":
 			{
-				"buffer_size": 2630,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "_sass/app.scss",
-			"settings":
-			{
-				"buffer_size": 2539,
+				"buffer_size": 1310407,
 				"line_ending": "Unix"
 			}
 		}
@@ -185,9 +177,18 @@
 	},
 	"file_history":
 	[
-		"/home/jon/Documents/Latex/Magnetite-MacroFluidic/main.tex",
-		"/home/jon/Programming/jekyll/crs/_sass/app.scss",
+		"/home/jon/Programming/jekyll/crs/_includes/scripts.html",
+		"/home/jon/Programming/jekyll/crs/_includes/head.html",
+		"/home/jon/Programming/jekyll/crs/_posts/2014-07-30-coffee-morning.markdown",
+		"/home/jon/Programming/jekyll/crs/Gruntfile.js",
+		"/home/jon/Programming/jekyll/crs/css/screen.css",
 		"/home/jon/Programming/jekyll/crs/directory/index.html",
+		"/home/jon/Programming/jekyll/crs/_sass/app.scss",
+		"/home/jon/Programming/jekyll/crs/_sass/config.rb",
+		"/home/jon/Programming/jekyll/crs/_site/js/app.min.js",
+		"/home/jon/Programming/jekyll/crs/_site/js/app.js",
+		"/home/jon/Programming/jekyll/crs/bower_components/foundation/js/vendor/placeholder.js",
+		"/home/jon/Documents/Latex/Magnetite-MacroFluidic/main.tex",
 		"/home/jon/Programming/jekyll/crs/events/index.html",
 		"/home/jon/Programming/jekyll/crs/_data/directory.yml",
 		"/home/jon/Programming/jekyll/crs/committee/index.html",
@@ -303,15 +304,7 @@
 		"/home/jon/Programming/Ruby/rails/pigeonhole/app/views/shared/_login_nav.html.haml",
 		"/home/jon/.local/share/applications/omegaT.desktop",
 		"/home/jon/Programming/Ruby/rails/pigeonhole/app/views/devise/sessions/new.html.erb",
-		"/home/jon/Programming/Ruby/rails/pigeonhole/app/controllers/invoices_controller.rb",
-		"/home/jon/Programming/Ruby/rails/pigeonhole/app/models/invoice.rb",
-		"/home/jon/Programming/Ruby/rails/pigeonhole/app/models/invoice_project.rb",
-		"/home/jon/Programming/Ruby/rails/pigeonhole/app/controllers/application_controller.rb",
-		"/home/jon/Programming/Ruby/rails/pigeonhole/db/projects.yml",
-		"/home/jon/Programming/Ruby/rails/pigeonhole/db/clients.yml",
-		"/home/jon/Programming/Ruby/rails/pigeonhole/db/migrate/20130928153154_create_users.rb",
-		"/home/jon/Programming/Ruby/rails/pigeonhole/db/users.yml",
-		"/home/jon/Programming/Ruby/rails/pigeonhole/config/environments/development.rb"
+		"/home/jon/Programming/Ruby/rails/pigeonhole/app/controllers/invoices_controller.rb"
 	],
 	"find":
 	{
@@ -360,63 +353,32 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "directory/index.html",
+					"file": "/data/phyjpb/Data/NMR/RAW/mms6_pep_ac_140414/3002/pdata/1/1r",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2630,
+						"buffer_size": 1310407,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								85,
-								85
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "_sass/app.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2539,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								703,
-								703
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": -0.0,
-						"translation.y": 462.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -476,11 +438,11 @@
 	},
 	"select_project":
 	{
-		"height": 0.0,
+		"height": 500.0,
 		"selected_items":
 		[
 		],
-		"width": 0.0
+		"width": 380.0
 	},
 	"select_symbol":
 	{
@@ -497,7 +459,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 151.0,
+	"side_bar_width": 261.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

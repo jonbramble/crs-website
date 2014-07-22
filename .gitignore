@@ -2,3 +2,5 @@ _site
 _config.yml
 *~
 _sass/.sass-cache
+_bower_components
+_node_modules
