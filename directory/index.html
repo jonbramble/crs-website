@@ -9,6 +9,29 @@ title: Researchers Directory
  </div>
 </div>
 
+<form>
+ <div class="row">
+    <div class="large-6 columns end">
+      <div class="row collapse">
+        <div class="small-10 columns">
+          <input id="keywords-text" type="text" placeholder="Research Keywords">
+        </div>
+        <div class="small-2 columns">
+          <a id="search-keywords" href="#" class="button postfix">Search</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</form>
+
+<div id="search-results-row" class="row">
+ <div class="large-6 columns end">
+  <h4> Search Results </h4>
+  <div id="search-results">
+  </div>
+ </div>
+</div>
+
 {% for cluster in site.data.directory %}
     <div class="row">
      <div class="large-8 small-12 columns end">
@@ -43,14 +66,11 @@ title: Researchers Directory
   				     <li>Email: {{member.email}}</li>
   					   <li>Research Keywords:
                {% for keyword in member.keywords %}
-                 <span data-member="{{member.name}}" data-keyword="{{keyword}}">{{ keyword }}</span>
+                 <span data-member="{{member.name}}" data-id="{{member.id}}" data-keyword="{{keyword}}">{{ keyword }}</span>
                {% endfor %}</li>
   				     <li>Office: {{member.office}}</li>
   				     <li>Tel: {{member.phone}}</li>   
                </ul>
-               <div class="hidden">
-
-               </div> 
   				    <p></p>
   				   </div>
 

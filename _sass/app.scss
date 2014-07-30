@@ -10,6 +10,7 @@
   "foundation/components/inline-lists",
   "foundation/components/type",
   "foundation/components/visibility",
+  "foundation/components/forms",
   "foundation/components/reveal";
 
 img.logo {
@@ -36,6 +37,13 @@ img.logo {
 	.page-title h3 {
 		padding-top: 5px;
 		padding-bottom: 5px;
+	}
+}
+
+#search-results-row {
+	margin-bottom: 50px;
+	.row {
+		margin-bottom: 5px;
 	}
 }
 
