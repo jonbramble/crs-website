@@ -41,9 +41,16 @@ title: Researchers Directory
   				   <div class="directory-list small-12 large-6 columns">
   				    <ul class="directory-items">
   				     <li>Email: {{member.email}}</li>
-  					   <li>Research Keywords: {{member.keywords}}</li>
+  					   <li>Research Keywords:
+               {% for keyword in member.keywords %}
+                 <span data-member="{{member.name}}" data-keyword="{{keyword}}">{{ keyword }}</span>
+               {% endfor %}</li>
   				     <li>Office: {{member.office}}</li>
-  				     <li>Tel: {{member.phone}}</li>    
+  				     <li>Tel: {{member.phone}}</li>   
+               </ul>
+               <div class="hidden">
+
+               </div> 
   				    <p></p>
   				   </div>
 
@@ -87,3 +94,5 @@ title: Researchers Directory
    </ul>
   <a class="close-reveal-modal">&#215;</a>
  </div>
+
+ 

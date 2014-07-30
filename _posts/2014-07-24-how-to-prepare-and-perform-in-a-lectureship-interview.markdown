@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "How to Prepare and Perform in a Lectureship Interview"
-date:   2014-07-24 16:00:00
+date:   2014-07-24 16:00
 categories: events careers
 ---
 {% capture link_name %}

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Coffee Morning
-date:   2014-07-30 10:30:00
+date:   2014-07-30 10:30
 categories: events coffeemorning
 ---
 {% capture link_name %}

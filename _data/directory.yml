@@ -11,7 +11,8 @@
           id: arawlings
           bio: 
           position: Post-Doc
-          keywords: Proteins
+          keywords: 
+           - Proteins
           email: a.rawlings@sheffield.ac.uk
           office: E74
           lab: E70
@@ -22,7 +23,9 @@
           id: jbramble
           bio: 
           position: Post-Doc
-          keywords: Nanoparticles, Microscopy
+          keywords: 
+           - Nanoparticles 
+           - Microscopy
           email: j.bramble@sheffield.ac.uk
           office: E74
           lab: E70
@@ -36,7 +39,8 @@
           name: David Finger
           id: dfinger
           position: Post-Doc
-          keywords: Proteins
+          keywords: 
+           - FEN
           email: d.l.finger@sheffield.ac.uk
           office: E74
           lab: E72
