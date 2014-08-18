@@ -33,21 +33,7 @@
           website: 
 
      - 
-       leader: Prof. Jane Gradsby
-       members:
-        - 
-          name: David Finger
-          id: dfinger
-          position: Post-Doc
-          keywords: 
-           - Proteins
-           - FEN
-          email: d.l.finger@sheffield.ac.uk
-          office: E74
-          lab: E72
-          phone: x29364
-          website: 
-
+       leader: Prof. Jane Grasby
   - 
     name: Polymers, Materials, and Surface Chemistry
     img: materials_cluster.jpg
