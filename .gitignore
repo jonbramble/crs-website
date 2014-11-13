@@ -4,3 +4,4 @@ _config.yml
 _sass/.sass-cache
 _bower_components
 _node_modules
+_posts/*.sublime-workspace
